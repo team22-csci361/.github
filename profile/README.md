@@ -28,8 +28,6 @@ Each repository maintains its own README with setup instructions, architecture n
 
 ## Workflow
 
-### Task Management
-
 All work is tracked on the **Master Board**. No code should be written for a task that isn't represented there — if it's not on the board, it doesn't exist.
 
 | Column | Meaning |
@@ -46,7 +44,7 @@ All work is tracked on the **Master Board**. No code should be written for a tas
 
 ---
 
-### Branching Strategy
+## Branching Strategy
 
 | Branch | Purpose |
 |---|---|
@@ -68,7 +66,7 @@ hotfix/patch-payment-crash
 
 ---
 
-### Commit Convention
+## Commit Convention
 
 We follow [Conventional Commits](https://www.conventionalcommits.org/):
 
@@ -96,7 +94,7 @@ Keep commits small and focused — one logical change per commit.
 
 ---
 
-### Issues
+## Issues
 
 Every task starts as an issue, created from the **Issue Template**. Do not skip fields.
 
@@ -113,7 +111,7 @@ _Once created, assign yourself, add it to the Master Board, and move it to `To D
 
 ---
 
-### Pull Requests
+## Pull Requests
 
 **Before opening a PR:**
 1. Branch from the correct base (`dev` for regular work, `main` only for hotfixes).
